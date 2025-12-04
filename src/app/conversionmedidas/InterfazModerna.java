@@ -55,7 +55,7 @@ public class InterfazModerna extends javax.swing.JFrame {
         jLabel1.setText("De");
 
         Cantidad.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        Cantidad.setModel(new javax.swing.SpinnerNumberModel());
+        Cantidad.setModel(new javax.swing.SpinnerNumberModel(Double.valueOf(0.0d), null, null, Double.valueOf(1.0d)));
 
         Lista_A.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
